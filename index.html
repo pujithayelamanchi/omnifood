@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>omni food</title>
+</head>
+<style>
+    .start {
+        background-color: rgb(245, 225, 200);
+        padding-top: 40px;
+        padding-bottom: 50px;
+
+    }
+
+    .first {
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        gap: 30px;
+        position: fixed;
+    }
+    .a{
+        background-color: rgb(251, 140, 0);
+        border-radius: 10px;
+        padding: 10px;
+        width: 100px;
+        padding-top: 10px;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+    }
+
+    .om {
+        float: right;
+        padding-right: 170px;
+        padding-top: 40px;
+    }
+
+    .second {
+        font-size: 50px;
+        font-weight: bolder;
+        padding-left: 100px;
+        padding-top: 40px;
+
+    }
+
+    .third {
+        font-size: 20px;
+        padding-left: 100px;
+        padding-top: 30px;
+    }
+
+    .fourth {
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+        padding-top: 40px;
+        column-gap: 20px;
+        padding-left: 100px;
+        ;
+    }
+
+    .h {
+        box-sizing: border-box;
+        background-color: rgb(251, 140, 0);
+        border-radius: 10px;
+        padding: 15px;
+        color: white;
+        font-weight: bolder;
+        font-size: x-large;
+
+    }
+
+    .i {
+        border: 2px solid white;
+        padding: 2px;
+        background-color: white;
+        color: rgba(119, 117, 117, 0.912);
+        font-size: x-large;
+        font-weight: bolder;
+    }
+
+    .five {
+        padding-top: 40px;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 100px;
+    }
+
+    .j {
+        text-align: center;
+        text-decoration-color: rgb(102, 102, 102);
+        padding-top: 10px;
+    }
+
+    .k {
+        height: 30px;
+        width: 20px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        padding-left: 300px;
+        column-gap: 40px;
+        padding-top: 50px;
+    }
+.main6{
+        padding-left: 100px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 70px;
+    }
+    .l {
+        padding-top: 30px;
+        font-weight: bolder;
+        font-size: 50px;
+        padding-left: 100px;
+        padding-bottom: 30px;
+    }
+.b{
+    color: rgb(251, 140,0);
+     font-weight: bold;
+     padding-left: 100px; 
+     padding-top: 40px;
+}
+.c{
+    padding-left: 100px;
+}
+    .m {
+        padding-top: 70px;
+        font-size: 90px;
+        font-weight: bolder;
+        color: rgba(119, 117, 117, 0.912);
+        padding-bottom: 20px;
+    }
+
+    .n {
+        font-size: x-large;
+        font-weight: bolder;
+    }
+.main3{
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.o {
+        font-size: 20px;
+        padding-top: 40px;
+    }
+    .main4{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 40px;
+    }
+    .d{
+        padding-left: 600px;
+    }
+.main5{
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+.b{
+    row-gap: 50px;
+}
+    .one {
+        display: flex;
+        flex-direction: row;
+    }
+    .q {
+        color: rgb(251, 140, 0);
+        font-weight: bold;
+        padding-left: 700px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        padding-top: 40px;
+    }
+
+    .r {
+        font-size: 50px;
+        font-weight: bold;
+        padding-left: 350px;
+        padding-bottom: 80px;
+    }
+
+
+    .A {
+        display: flex;
+        flex-direction: row;
+        padding-left: 40px;
+        column-gap: 10px;
+    }
+
+    .B {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        align-items: first baseline;
+        padding-top: 30px;
+    }
+
+    .C {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        align-items: first baseline;
+        padding-top: 30px;
+        padding-left: 100px;
+    }
+
+    .box3 {
+        display: grid;
+        grid-template-columns: auto;
+        padding-top: 40px;
+        padding-left: 200px;
+
+    }
+
+    .container {
+        background-color: rgb(245, 225, 200);
+        display: flex;
+        padding-bottom: 20px;
+    }
+
+    .D {
+        border: 2px rgb(245, 225, 200) solid;
+        padding: 70px;
+        margin: 30px;
+
+    }
+
+    .E {
+        border: 2px rgb(245, 225, 200) solid;
+        padding: 70px;
+        margin: 30px;
+        background-color: rgb(245, 225, 200);
+    }
+
+    .box5 {
+        display: flex;
+        flex-direction: row;
+        padding-left: 350px;
+    }
+
+    .box6 {
+        background-color: rgb(251, 140, 0);
+        border-radius: 10px;
+        padding: 10px;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .last {
+        background-image: linear-gradient(to right bottom, rgba(195, 129, 7, 0.741), rgba(230, 125, 34, 0.35))url(https://omnifood.dev/img/eating.jpg);
+        background-size: cover;
+        background-position: center;
+        float: right;
+        padding-bottom: 100px;
+        padding-right: 40px;
+    }
+    a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:rgb(251, 140, 0);
+  background-color: transparent;
+}
+a:active {
+  color:  rgb(251, 140, 0) solid;
+  background-color: transparent;
+}
+</style>
+
+<body>
+    <div class="start">
+        <div class="nav">
+            <div class="first">
+            <div style="padding-left: 50px; font-weight: bolder; font-size: xx-large;"><img src="https://omnifood.dev/img/omnifood-logo.png" width="150px" height="25px"></div>
+             <a href="#work"> <div style="padding-left:660px;font-size:  larger;font-weight: bold;">How it works</div></a>
+             <a href="#meal">   <div style=" font-size: larger;font-weight: bold;">Meals</div></a>
+              <a href="#test"><div style=" font-size: larger;font-weight: bold">Testimonials</div></a>
+              <a href="#price"> <div style="font-size: larger;font-weight: bold">Pricing</div></a>
+             <a href="#free"><div class="a">Try for free</div></a>
+            </div>
+        </div>
+        </br>
+        <div class="om">
+            <img src="https://omnifood.dev/img/hero.webp" height="460px" width="460px">
+        </div>
+        <div class="second">A healthy meal
+            </br> delivered to your door,
+            </br> every single day</div>
+        <div class="third">The smart 365-days-per-year food subscription that will
+            </br> make you eat healthy again. Tailored to your personal tastes
+            </br>and nutritional needs.</div>
+        <div class="fourth">
+            <div class="h">Start eating well</div>
+            <div class="i">Learn More🠓</div>
+        </div>
+        <div class="five">
+            <img src="https://omnifood.dev/img/customers/customer-1.jpg" width="50px" height="60px">
+            <img src="https://omnifood.dev/img/customers/customer-2.jpg" width="50px" height="60px">
+            <img src="https://omnifood.dev/img/customers/customer-3.jpg" width="50px" height="60px">
+            <img src="https://omnifood.dev/img/customers/customer-4.jpg" width="50px" height="60px">
+            <img src="https://omnifood.dev/img/customers/customer-5.jpg" width="50px" height="60px">
+            <img src="https://omnifood.dev/img/customers/customer-6.jpg" width="50px" height="60px">
+
+            <p style="color:rgb(251, 140,0);font-weight: bold;font-size: large;">250,000+</p>
+            <p style="font-weight: bold;font-size: large;">meals delivered last year!</p>
+
+        </div>
+    </div>
+    <div class="main2">
+        <div class="j"> AS FEATURED IN</div>
+        <div class="k">
+            <img src="https://omnifood.dev/img/logos/techcrunch.png">
+            <img src="https://omnifood.dev/img/logos/business-insider.png">
+            <img src="https://omnifood.dev/img/logos/the-new-york-times.png">
+            <img src="https://omnifood.dev/img/logos/forbes.png">
+            <img src="https://omnifood.dev/img/logos/usa-today.png">
+        </div>
+    </div>
+    <div>
+    <div class="main3">
+        <div id="work">
+        <div class="b">HOW IT WORKS</div>
+        <div class="l">Your daily dose of health in 3 simple steps</div>
+        <p style="border:none;float: right;padding-right: 340px;"><img src="https://omnifood.dev/img/app/app-screen-1.png" height="350px" width="200px"></p>
+        <div class="main3">  <div class="m">01</div>
+        <div class="n">Tell us what you like (and what not)</div>
+        <div class="one">
+            <div class="o">Never again waste time thinking about what to eat! Omnifood AI<br>
+                will create a 100% personalized weekly meal plan just for you. It<br>
+                makes sure you get all the nutrients and vitamins you need, no<br>
+                matter what diet you follow!</div></div>
+        </div>
+    </div></div>
+    <div class="main4">
+        <div style="padding-top: 50px;padding-left: 100px;"><img src="https://omnifood.dev/img/app/app-screen-2.png" height="350px" width="200px"></div>
+    <div class="d">
+        <div class="m">02</div>
+            <div class="n">Approve your weekly meal plan</div>
+            <div class="one">
+                <div class="o">Once per week, approve the meal plan generated for you by<br>
+                    Omnifood AI. You can change ingredients, swap entire meals, or
+                    <br>even add your own recipes.
+                </div>
+            </div>
+</div>
+</div>
+<p style="border:none;float: right;padding-right: 340px;"><img src="https://omnifood.dev/img/app/app-screen-3.png" height="350px" width="200px"></p>
+    <div class="main5">
+        <div class="c">
+            <div class="m">03</div>
+            <div class="n">Receive meals at convenient time</div>
+            <div class="one">
+                <div class="o">Best chefs in town will cook your selected meal every day, and<br>
+                    we will deliver it to your door whenever works best for you. You
+                    <br>can change delivery schedule and address daily!
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<div id="meal">
+  <div>
+        <div class="q">MEALS</div>
+        <div class="r">Omnifood AI chooses from 5,000+ recipes</div>
+    </div>
+  <div class="main6">
+        <div>
+            <div style="border:none;border-radius:50%;">
+                <img src="https://omnifood.dev/img/meals/meal-1.jpg" height="250px" width="300px">
+                <div style="border:2px rgba(245, 245, 245, 0.368);width:300px;height:230px;background-color:rgba(245, 245, 245, 0.753);">
+                <div style="padding-left: 20px;">
+                    <h5
+                        style="background-color:rgb(51, 162, 51);border: none;margin-bottom: 20px;border-radius: 10px;width:100px;">
+                        VEGETARIAN</h5>
+                    <h2>Japanese Gyozas</h2>
+                    <h3 style="margin-left:20px;">650 calories</h3>
+                    <h3 style="margin-left:20px;">NutriScore ® 74</h3>
+                    <h3 style="margin-left:20px;">4.9 rating (537)</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div>
+            <div style="border-top-right-radius: 20px;border-top-left-radius: 20px;"><img
+                    src="https://omnifood.dev/img/meals/meal-2.jpg" height="250px" width="300px"></div>
+                    <div style="border:2px rgba(245, 245, 245, 0.368);width:300px;height:230px;background-color:rgba(245, 245, 245, 0.753);">
+            <div style="padding-left: 20px;">
+                <div class="A">
+                    <h5
+                        style="background-color:rgb(115, 224, 109);border: none;margin-bottom: 20px;border-radius: 10px;width:50px;">
+                        VEGAN</h5>
+                    <h5
+                        style="background-color:rgb(230, 230, 7);border: none;margin-bottom: 20px;border-radius: 10px;width: 50px;">
+                        PALEO</h5>
+                </div>
+                <h2>Avocado Salad</h2>
+                <h3 style="margin-left:20px;">400 calories</h3>
+                <h3 style="margin-left:20px;">NutriScore ® 92</h3>
+                <h3 style="margin-left:20px;">4.8 rating (441)</h3>
+            </div>
+        </div>
+        </div>
+        <div style="padding-left: 10px;">
+            <h1>Works with any diet:</h1>
+
+            <h3>✔ Vegetarian</h3>
+            <h3>✔ Vegan</h3>
+            <h3>✔ Pescatarian</h3>
+            <h3>✔ Gluten-free</h3>
+            <h3>✔ Lactose-free</h3>
+            <h3>✔ Keto</h3>
+            <h3>✔ Paleo</h3>
+            <h3>✔ Low FODMAP</h3>
+            <h3>✔ Kid-friendly</h3>
+        </div>
+    </div>
+</div>
+    <div>
+        style="color:rgb(251, 140,0) ;text-decoration: underline;text-align: center;font-weight: bold;font-size: large;padding-top: 40px;padding-bottom: 80px;">
+        See all recipes →</div>
+        <div id="test">
+    <div class="container">
+        <div class="box1">
+            <div>
+                <div style="color: rgb(251, 140,0);padding-left: 100px;font-weight: bold;padding-top: 80px;">
+                    TESTIMONIALS</div>
+                <h1 style="font-size: 40px;font-weight: bold;padding-left: 100px;">Once you try it, you can't go<br>
+                    back</h1>
+            </div>
+            <div class="box2">
+                <div style="padding-left: 100px;">
+                    <div class="B">
+                        <div><img src="https://omnifood.dev/img/customers/dave.jpg" height="60px" width="60px">
+                            <div style="font-size: 20px;">Inexpensive, healthy and great-<br>
+                                tasting meals, without even<br>
+                                having to order manually! It feels
+                                <br> truly magical.
+                                <h4>— Dave Bryson</h4>
+                            </div>
+                        </div>
+                        <div><img src="https://omnifood.dev/img/customers/ben.jpg" height="60px" width="60px">
+                            <div style="font-size: 20px;">The AI algorithm is crazy good, it<br>
+                                chooses the right meals for me<br>
+                                every time. It's amazing not to
+                                <br>worry about food anymore!
+                            </div>
+                            <h4>— Ben Hadley</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="C">
+                <div><img src="https://omnifood.dev/img/customers/steve.jpg" height="60px" width="60px">
+                    <div style="font-size: 20px;">Omnifood is a life saver! I just<br>
+                        started a company, so there's no<br>
+                        time for cooking. I couldn't live<br>
+                        without my daily meals now!
+                        <br>
+                        <h4>— Steve Miller</h4>
+                    </div>
+                </div>
+                <div><img src="https://omnifood.dev/img/customers/hannah.jpg" height="60px" width="60px">
+                    <div style="font-size: 20px;"> I got Omnifood for the whole<br>
+                        family, and it frees up so much<br>
+                        time! Plus, everything is organic
+                        <br>and vegan and without plastic.
+                        <h4>— Hannah Smith</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box3">
+            <div>
+                <img src="https://omnifood.dev/img/gallery/gallery-1.jpg" height="200px" width="200px">
+                <img src="https://omnifood.dev/img/gallery/gallery-2.jpg" height="200px" width="200px">
+                <img src="https://omnifood.dev/img/gallery/gallery-3.jpg " height="200px" width="200px">
+            </div>
+            <div>
+                <img src="https://omnifood.dev/img/gallery/gallery-4.jpg" height="200px" width="200px">
+                <img src="https://omnifood.dev/img/gallery/gallery-5.jpg" height="200px" width="200px">
+                <img src="https://omnifood.dev/img/gallery/gallery-6.jpg" height="200px" width="200px">
+            </div>
+            <div>
+                <img src="https://omnifood.dev/img/gallery/gallery-7.jpg" height="200px" width="200px">
+                <img src="https://omnifood.dev/img/gallery/gallery-8.jpg" height="200px" width="200px">
+                <img src="https://omnifood.dev/img/gallery/gallery-9.jpg" height="200px" width="200px">
+            </div>
+            <div>
+                <img src="https://omnifood.dev/img/gallery/gallery-10.jpg" height="200px" width="200px">
+                <img src="https://omnifood.dev/img/gallery/gallery-11.jpg" height="200px" width="200px">
+                <img src="https://omnifood.dev/img/gallery/gallery-12.jpg" height="200px" width="200px">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="price">
+    <div class="box4">
+        <div>
+            <div style="color:rgb(251, 140,0);font-weight: bold;padding-left: 100px;padding-top: 50px;">PRICING</div>
+            <div style="font-weight: bolder;font-size: 50px;padding-left: 100px;padding-bottom: 20px;">Eating well
+                without breaking the bank</div>
+        </div>
+        <div class="box5">
+            <div class="D">
+                <div
+                    style="color: rgb(251, 140,0);font-weight: bolder;text-align: center;padding-bottom: 20px;font: size 20px;;">
+                    STARTER</div>
+                <div style="font-size: 40px;font-weight: bold;text-align: center;">$399</div>
+                <div style="padding-bottom: 20px;">per month. That's just $13 per meal!</div>
+                <p> ✔1 meal per day<br>
+                    ✔ Order from 11am to 9pm<br>
+                    ✔ Delivery is free<br>
+                    ✘</p>
+                <div class="box6">Staring eating well</div>
+            </div>
+            <div class="E">
+                <div
+                    style="color: rgb(251, 140,0);font-weight: bolder;text-align: center;padding-bottom: 20px;font: size 20px;;">
+                    COMPLETE</div>
+                <div style="font-size: 40px;font-weight: bold;text-align: center;">$649</div>
+                <div style="padding-bottom: 20px;">per month. That's just $11 per meal!</div>
+                <p> ✔2 meals per day<br>
+                    ✔ Order 24/7<br>
+                    ✔ Delivery is free<br>
+                    ✔ Get access to latest recipes</p>
+                <div class="box6">Staring eating well</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="free">
+    <div style="padding-left: 500px;padding-bottom: 40px;">Prices include all applicable taxes. You can cancel at any
+        time. Both plans include the following:</div>
+    <div style="background-color:rgb(251, 140,0);padding-left: 40px;padding-top: 20px;padding-bottom: 20px;">
+        <p style="font-weight: bold;font-size: 50px;color: rgb(57, 7, 7);">Get your first meal for free!</p><br>
+        <div class="last"><img src="https://omnifood.dev/img/eating.jpg " height="300px" width="400px"></div>
+        <p style="color:rgb(57, 7, 7);padding-bottom: 40px;">Healthy, tasty and hassle-free meals are waiting for you.
+            Start eating well<br>
+            today. You can cancel or pause anytime. And the first meal is on us!</p>
+        <div style="display: flex;flex-direction: row;">
+            <div style="margin-left: 60px;font-size:15px;font-weight: bold"> <label> FULL NAME</label><br>
+                <input type="text" style="border-radius: 10px;width: 250px;height: 50px;"><br><br><br>
+
+                <label style="padding:10px;font-size:15px;font-weight: bold">WHERE DID YOU HEAR FROM
+                    US</label><br>
+
+                <input type="text" style="border-radius: 10px;width: 250px;height: 50px;">
+            </div>
+
+
+            <div style="line-height: 30px; margin-right: 90px;">
+
+                <label style="font-family: Rubik sans-serif;margin-left: 150px;font-size:15px;font-weight: bold;">
+                    EMAIL ADDRESS</label><br>
+                <input type="text" style="border-radius: 10px;float: right;width: 250px;height: 50px"> <br>
+                <input type="button" value="SIGN UP FOR NOW"
+                    style="border-radius: 10px;width: 250px;height: 50px;background-color:rgb(57, 7, 7);color: azure;margin-left: 150px; margin-top: 40px;font-size:15px;font-weight: bold;font-family:  Rubik sans-serif;">
+            </div>
+        </div>
+    </div>
+ </div>
+</body>
+
+</html>
